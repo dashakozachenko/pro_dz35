@@ -1,6 +1,7 @@
 'use strict';
 
 void function () {
+
     const submitBtn = document.querySelector('.btn');
 
     submitBtn.addEventListener('click', function (event) {
@@ -18,7 +19,7 @@ void function () {
                 localStorage.setItem('formData', JSON.stringify(formData))
                 window.location.href = 'index2.html';
             }
-    }
+        }
     )
 }()
 
